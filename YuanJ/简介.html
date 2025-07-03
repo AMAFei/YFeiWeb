@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介 - 你的名字</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 25px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .contact-info div {
+            flex-basis: 48%;
+            margin-bottom: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill-item {
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="个人照片" class="profile-img">
+        <h1>你的名字</h1>
+        <p>职业/头衔 | 个人标语或简短介绍</p>
+    </header>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>在这里写一段简短的自我介绍，包括你的背景、专业领域和个人特点。可以提及你的职业目标、核心价值观或者你对工作的热情。</p>
+        <p>例如：我是一名充满激情的网页设计师，拥有5年行业经验，专注于创建用户友好且视觉吸引力强的网站。我相信好的设计应该既美观又实用。</p>
+    </section>
+
+    <section id="experience">
+        <h2>工作经历</h2>
+        <div class="experience-item">
+            <h3>公司名称 | 职位</h3>
+            <p class="date">2020年1月 - 至今</p>
+            <ul>
+                <li>负责项目A的开发与维护</li>
+                <li>带领团队完成B项目，获得客户好评</li>
+                <li>优化工作流程，提高团队效率30%</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>前公司名称 | 职位</h3>
+            <p class="date">2018年6月 - 2019年12月</p>
+            <ul>
+                <li>参与C产品的设计与开发</li>
+                <li>协助团队完成D项目</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>教育背景</h2>
+        <div class="education-item">
+            <h3>大学名称</h3>
+            <p>计算机科学学士 | 2014年9月 - 2018年6月</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>技能专长</h2>
+        <div class="skills">
+            <span class="skill-item">HTML5</span>
+            <span class="skill-item">CSS3</span>
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">React</span>
+            <span class="skill-item">UI设计</span>
+            <span class="skill-item">项目管理</span>
+            <span class="skill-item">团队协作</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>联系方式</h2>
+        <div class="contact-info">
+            <div>
+                <strong>邮箱：</strong> your.email@example.com
+            </div>
+            <div>
+                <strong>电话：</strong> +86 138 8888 8888
+            </div>
+            <div>
+                <strong>LinkedIn：</strong> linkedin.com/in/yourprofile
+            </div>
+            <div>
+                <strong>GitHub：</strong> github.com/yourusername
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 你的名字. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
