@@ -55,8 +55,8 @@
         }
         
         .signature-photo {
-            width: 50px;
-            height: 50px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             margin-right: 10px;
             object-fit: cover;
