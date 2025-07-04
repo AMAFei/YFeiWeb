@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
+    <title>马元斐</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,15 +35,33 @@
     </style>
 </head>
 <body>
-    <h1>项目说明</h1>
-    
-    <div class="content">
-        <p>我在这里什么都没留下哦！！！</p>
-        <p>如果要了解我，就请到 <a href="https://amafei.github.io/YFeiWeb/YuanJ/yf.html" target="_blank">我的个人页面</a>。</p>
+    <div class="page-wrapper">
+        <h1>点下面《我的个人页面》访问我哦</h1>
+        
+        <div class="content">
+            <p>我在这里什么都没留下哦！！！</p>
+            <p>如果要了解我，就请到 <a href="https://amafei.github.io/YFeiWeb/YuanJ/yf.html" target="_blank">我的个人页面</a>。</p>
+        </div>
+        
+        <div class="signature">
+            <p>—— 马元斐</p>
+        </div>
     </div>
-    
-    <div class="signature">
-        <p>—— 马元斐</p>
-    </div>
+
+    <style>
+        body {
+            background-image: url('YuanJ/1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white; /* 文字颜色改为白色以便在深色背景上可见 */
+        }
+        
+        .page-wrapper {
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景使文字更易读 */
+            padding: 20px;
+            min-height: 100vh;
+        }
+    </style>
 </body>
 </html>
